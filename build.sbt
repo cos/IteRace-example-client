@@ -17,4 +17,6 @@ mainClass := Some("iterace.IteRace")
 
 javaOptions += "-Xmx4G" 
 
-libraryDependencies ++= Seq("University of Illinois" %% "iterace" % "0.5")
+libraryDependencies ++= Seq(
+"University of Illinois" %% "iterace" % "0.5", 
+"com.novocode" % "junit-interface" % "0.10" % "test")

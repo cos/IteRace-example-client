@@ -10,3 +10,4 @@ This is a very small example of using IteRace a library. It can be used as a sta
 4. Rename whatever is needed in `build.sbt` to match your project
 5. `sbt compile`
 6. `sbt test`
+7. `sbt eclipse` to generate the required files for importing the project into Eclipse
